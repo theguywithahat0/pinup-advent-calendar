@@ -32,3 +32,6 @@ The site has no external scripts. Google Fonts are optional visual enhancements;
 Use `?preview=1` on the site URL to simulate December 1, or `?preview=24` to unlock all 24 doors for testing. Any value from 1 through 24 works, so `?preview=7` shows what a visitor can open on December 7.
 
 Remove the `?preview=...` query to return to the genuine Advent timetable. The preview feature is public and should not be treated as access protection for unpublished images.
+
+## Optional daily calendar reminders
+The **Remind me every morning** button downloads `pinup-reminders-2026.ics`, containing 24 individual events, December 1–24, 2026, at **9:00 AM local time**. Each event links to the site and requests a popup reminder. People import the `.ics` in their calendar; actual alert behavior varies by calendar app and notification settings. Google Calendar users can import it through Settings → Import & export. No email collection or accounts are involved.

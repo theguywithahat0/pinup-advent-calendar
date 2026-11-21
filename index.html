@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#541e28">
+  <meta name="description" content="A Very Pin-Up Christmas — 24 festive vintage pin-up surprises, one door each day of December.">
+  <meta property="og:title" content="A Very Pin-Up Christmas">
+  <meta property="og:description" content="Open a little Christmas surprise every day, December 1–24.">
+  <title>A Very Pin-Up Christmas | Advent 2026</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <div class="sparkle-field" aria-hidden="true"></div>
+  <div class="page">
+    <header class="masthead">
+      <div class="eyebrow"><span class="ornament">✦</span> THE CHRISTMAS 2026 COLLECTION <span class="ornament">✦</span></div>
+      <h1>A Very <em>Pin-Up</em> Christmas</h1>
+      <div class="ribbon-title">24 DAYS • 24 VINTAGE BEAUTIES • 24 LITTLE SURPRISES</div>
+      <p class="intro">A festive tribute to the great illustrators of the Golden Age of pin-up. Find today's numbered door and unwrap a little mischief.</p>
+      <p id="status" class="status" aria-live="polite">The first door opens on December 1.</p>
+    </header>
+    <main>
+      <section class="calendar-shell" aria-label="Christmas Advent calendar">
+        <div class="calendar-heading" aria-hidden="true"><span>❦</span><span>THE ADVENT CALENDAR</span><span>❦</span></div>
+        <div class="calendar" id="calendar"></div>
+        <div class="calendar-footer"><span>✶</span> A LITTLE MAGIC BEHIND EVERY DOOR <span>✶</span></div>
+      </section>
+      <section class="footer-note">
+        <p>Every day opens a new original Christmas pin-up, each paying tribute to a different Golden Age illustration style.</p>
+        <p class="small">Inspired by vintage calendar and magazine art. Original contemporary illustrations, not works by the historical artists.</p>
+      </section>
+    </main>
+    <footer>MADE WITH CHRISTMAS CHEER <span aria-hidden="true">♥</span> 2026</footer>
+  </div>
+
+  <dialog id="reveal" class="reveal" aria-labelledby="reveal-title">
+    <button id="close" class="close" aria-label="Close artwork">×</button>
+    <div class="reveal-layout">
+      <div class="art-frame">
+        <img id="artwork" alt="" hidden>
+        <div id="missing" class="missing" hidden><span class="missing-star">✧</span><p>The surprise is being prepared.</p><small>Add the image file to reveal this artwork.</small></div>
+      </div>
+      <div class="art-caption">
+        <p class="art-day" id="reveal-day"></p>
+        <h2 id="reveal-title"></h2>
+        <p class="art-credit" id="reveal-credit"></p>
+        <div class="modal-actions">
+          <button id="previous" class="nav-button" aria-label="Previous unlocked day">‹ Previous</button>
+          <button id="next" class="nav-button" aria-label="Next unlocked day">Next ›</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

@@ -21,8 +21,31 @@
       <p class="intro">A festive tribute to the great illustrators of the Golden Age of pin-up. Find today's numbered door and unwrap a little mischief.</p>
       <p id="status" class="status" aria-live="polite">The first door opens on December 1.</p>
       <div class="reminder-cta">
-        <a class="reminder-button" href="./pinup-reminders-2026.ics" download="A-Very-Pin-Up-Christmas-2026.ics">🔔 &nbsp; Remind me every morning</a>
-        <p>24 free calendar reminders · 9 AM local time · No sign-up</p>
+        <button type="button" class="reminder-button" id="reminder-toggle" aria-controls="reminder-options" aria-expanded="false">🔔 &nbsp; Remind me every morning</button>
+        <p>24 daily reminders · 9 AM local time · No sign-up</p>
+        <div class="reminder-panel" id="reminder-options" hidden>
+          <p class="reminder-panel-title">Choose your calendar</p>
+          <div class="reminder-providers">
+            <a id="google-calendar-link" class="provider-option" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render">
+              <strong>Google Calendar</strong><small>One recurring event · Dec 1–24</small>
+            </a>
+            <a class="provider-option" href="webcal://theguywithahat0.github.io/pinup-advent-calendar/pinup-reminders-2026.ics">
+              <strong>Apple Calendar / Outlook app</strong><small>Subscribe in your calendar app</small>
+            </a>
+            <button type="button" class="provider-option" id="outlook-personal">
+              <strong>Outlook on the web</strong><small>Personal Microsoft account</small>
+            </button>
+            <button type="button" class="provider-option" id="outlook-work">
+              <strong>Microsoft 365</strong><small>Work or school account</small>
+            </button>
+          </div>
+          <div class="outlook-help" id="outlook-help" hidden>
+            <p id="outlook-instruction">In Outlook, select <strong>Add calendar → Subscribe from web</strong>, paste this link, then save.</p>
+            <div class="url-copy"><input id="outlook-url" readonly aria-label="Calendar subscription URL" value="https://theguywithahat0.github.io/pinup-advent-calendar/pinup-reminders-2026.ics"><button id="outlook-copy" type="button">Copy link</button></div>
+            <p id="copy-feedback" role="status" aria-live="polite"></p>
+          </div>
+          <p class="reminder-fineprint">Confirm in your calendar and enable notifications. Google uses your calendar's default alerts; Apple/Outlook subscription alerts depend on your settings.</p>
+        </div>
       </div>
     </header>
     <main>

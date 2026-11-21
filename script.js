@@ -66,7 +66,9 @@ function draw(){
         status.textContent='Door '+day+' opens on December '+day+', '+YEAR+'. Come back then!';
         return;
       }
-      opened.add(day);saveOpened();draw();show(day);
+      opened.add(day);saveOpened();button.classList.add('swinging');
+      const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.setTimeout(()=>{draw();show(day)},reducedMotion?0:250);
     });
     calendar.append(button);
   }

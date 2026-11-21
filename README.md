@@ -35,3 +35,11 @@ Remove the `?preview=...` query to return to the genuine Advent timetable. The p
 
 ## Optional daily calendar reminders
 The **Remind me every morning** button downloads `pinup-reminders-2026.ics`, containing 24 individual events, December 1–24, 2026, at **9:00 AM local time**. Each event links to the site and requests a popup reminder. People import the `.ics` in their calendar; actual alert behavior varies by calendar app and notification settings. Google Calendar users can import it through Settings → Import & export. No email collection or accounts are involved.
+
+## Direct calendar reminders (no download on the website)
+The **Remind me every morning** button now opens provider options:
+- **Google Calendar**: opens a prefilled repeating event, December 1–24 at 9:00 a.m. in the visitor's local time zone, using `recur=RRULE:FREQ=DAILY;COUNT=24`. The visitor reviews and saves it, and should check alert settings.
+- **Apple Calendar / Outlook desktop**: opens the existing public `webcal://` subscription feed in a compatible calendar app, which may request confirmation. Alert support depends on the app.
+- **Outlook.com / Microsoft 365 on the web**: opens the calendar's Add calendar page, copies the public calendar feed URL to the clipboard, and shows instructions for **Subscribe from web**. Microsoft does not provide a reliable public one-click URL to add all 24 repeating events to a user calendar without an account authorization flow; this avoids the download but requires pasting the link.
+
+The public `.ics` feed remains in the repository so Apple and Outlook can subscribe. No visitor personal data is collected. Website code cannot force browser or calendar notification permissions.

@@ -27,3 +27,8 @@ Doors 1–24 become available at midnight **Europe/Paris** on December 1–24, 2
 - `images/` — your 24 paintings (you add these)
 
 The site has no external scripts. Google Fonts are optional visual enhancements; browser fallbacks work without them.
+
+## Test the doors before December
+Use `?preview=1` on the site URL to simulate December 1, or `?preview=24` to unlock all 24 doors for testing. Any value from 1 through 24 works, so `?preview=7` shows what a visitor can open on December 7.
+
+Remove the `?preview=...` query to return to the genuine Advent timetable. The preview feature is public and should not be treated as access protection for unpublished images.

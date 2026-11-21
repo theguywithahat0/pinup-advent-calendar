@@ -1,0 +1,367 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//A Very Pin-Up Christmas//Daily Door Reminders//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:A Very Pin-Up Christmas 2026
+BEGIN:VEVENT
+UID:advent-2026-day-01@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261201T090000
+DTEND:20261201T090500
+SUMMARY:Open your Christmas pin-up door 1
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-02@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261202T090000
+DTEND:20261202T090500
+SUMMARY:Open your Christmas pin-up door 2
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-03@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261203T090000
+DTEND:20261203T090500
+SUMMARY:Open your Christmas pin-up door 3
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-04@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261204T090000
+DTEND:20261204T090500
+SUMMARY:Open your Christmas pin-up door 4
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-05@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261205T090000
+DTEND:20261205T090500
+SUMMARY:Open your Christmas pin-up door 5
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-06@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261206T090000
+DTEND:20261206T090500
+SUMMARY:Open your Christmas pin-up door 6
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-07@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261207T090000
+DTEND:20261207T090500
+SUMMARY:Open your Christmas pin-up door 7
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-08@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261208T090000
+DTEND:20261208T090500
+SUMMARY:Open your Christmas pin-up door 8
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-09@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261209T090000
+DTEND:20261209T090500
+SUMMARY:Open your Christmas pin-up door 9
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-10@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261210T090000
+DTEND:20261210T090500
+SUMMARY:Open your Christmas pin-up door 10
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-11@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261211T090000
+DTEND:20261211T090500
+SUMMARY:Open your Christmas pin-up door 11
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-12@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261212T090000
+DTEND:20261212T090500
+SUMMARY:Open your Christmas pin-up door 12
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-13@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261213T090000
+DTEND:20261213T090500
+SUMMARY:Open your Christmas pin-up door 13
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-14@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261214T090000
+DTEND:20261214T090500
+SUMMARY:Open your Christmas pin-up door 14
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-15@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261215T090000
+DTEND:20261215T090500
+SUMMARY:Open your Christmas pin-up door 15
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-16@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261216T090000
+DTEND:20261216T090500
+SUMMARY:Open your Christmas pin-up door 16
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-17@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261217T090000
+DTEND:20261217T090500
+SUMMARY:Open your Christmas pin-up door 17
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-18@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261218T090000
+DTEND:20261218T090500
+SUMMARY:Open your Christmas pin-up door 18
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-19@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261219T090000
+DTEND:20261219T090500
+SUMMARY:Open your Christmas pin-up door 19
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-20@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261220T090000
+DTEND:20261220T090500
+SUMMARY:Open your Christmas pin-up door 20
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-21@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261221T090000
+DTEND:20261221T090500
+SUMMARY:Open your Christmas pin-up door 21
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-22@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261222T090000
+DTEND:20261222T090500
+SUMMARY:Open your Christmas pin-up door 22
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-23@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261223T090000
+DTEND:20261223T090500
+SUMMARY:Open your Christmas pin-up door 23
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:advent-2026-day-24@theguywithahat0.github.io
+DTSTAMP:20261122T000000Z
+DTSTART:20261224T090000
+DTEND:20261224T090500
+SUMMARY:Open your Christmas pin-up door 24
+DESCRIPTION:A new festive pin-up awaits! Open today's door at https://theguywithahat0.github.io/pinup-advent-calendar/
+URL:https://theguywithahat0.github.io/pinup-advent-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Your Christmas pin-up door is waiting!
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

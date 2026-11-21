@@ -5,3 +5,6 @@
 .door{transform-origin:left center;backface-visibility:hidden;transform-style:preserve-3d}
 .door.swinging{transform:perspective(550px) rotateY(-78deg);box-shadow:12px 8px 18px #1b0a1499;pointer-events:none}
 @media(prefers-reduced-motion:reduce){.door.swinging{transform:none}}
+
+/* Optional, account-free calendar reminder download */
+.reminder-cta{margin:15px auto 2px;text-align:center}.reminder-button{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:10px 19px;color:#48232a;background:#eed3a2;text-decoration:none;border:1px solid #fff3cd;box-shadow:0 3px 0 #ab8552,0 5px 16px #200d1766;border-radius:3px;font-size:.83rem;font-weight:700;letter-spacing:.025em;transition:transform .18s}.reminder-button:hover{background:#ffdfaa;transform:translateY(-2px)}.reminder-button:focus-visible{outline:3px solid #fff;outline-offset:3px}.reminder-cta p{margin:12px 0 0;color:#d7bbaa;font-size:.71rem}

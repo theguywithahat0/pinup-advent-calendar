@@ -101,5 +101,56 @@ document.getElementById('close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
 setStatus();draw();
 document.addEventListener('visibilitychange',()=>{if(!document.hidden){setStatus();draw()}});
+
+// Calendar links: Google can prefill a 24-day recurring event without a file download.
+// Build its UTC start based on the visitor's local 9 AM, not the site owner's timezone.
+const reminderToggle=document.getElementById('reminder-toggle');
+const reminderOptions=document.getElementById('reminder-options');
+const googleLink=document.getElementById('google-calendar-link');
+const outlookHelp=document.getElementById('outlook-help');
+const outlookUrl=document.getElementById('outlook-url');
+const copyFeedback=document.getElementById('copy-feedback');
+const calendarFeed=outlookUrl.value;
+function gcalTimestamp(date) {
+  return date.toISOString().replace(/[-:]/g,'').replace(/\\.\\d{3}Z$/,'Z');
+}
+function googleReminderUrl() {
+  const start=new Date(YEAR,11,1,9,0,0);
+  const end=new Date(YEAR,11,1,9,5,0);
+  const params=new URLSearchParams({
+    action:'TEMPLATE',
+    text:'Open your Christmas pin-up door',
+    dates:gcalTimestamp(start)+'/'+gcalTimestamp(end),
+    details:'24 days of vintage Christmas pin-up surprises. Open today’s door: https://theguywithahat0.github.io/pinup-advent-calendar/',
+    recur:'RRULE:FREQ=DAILY;COUNT=24'
+  });
+  const timezone=Intl.DateTimeFormat().resolvedOptions().timeZone;
+  if(timezone) params.set('ctz',timezone);
+  return 'https://calendar.google.com/calendar/render?'+params.toString();
+}
+googleLink.href=googleReminderUrl();
+reminderToggle.addEventListener('click',()=>{
+  reminderOptions.hidden=!reminderOptions.hidden;
+  reminderToggle.setAttribute('aria-expanded',String(!reminderOptions.hidden));
+});
+async function copyFeed(){
+  try{
+    await navigator.clipboard.writeText(calendarFeed);
+    copyFeedback.textContent='Link copied. Paste it into Outlook’s Subscribe from web field.';
+  } catch (_) {
+    outlookUrl.focus();outlookUrl.select();
+    copyFeedback.textContent='Copy the selected link, then paste it into Outlook.';
+  }
+}
+document.getElementById('outlook-copy').addEventListener('click',copyFeed);
+function openOutlook(url){
+  // Open synchronously on user gesture to avoid popup blocking.
+  window.open(url,'_blank','noopener');
+  outlookHelp.hidden=false;
+  copyFeed();
+}
+document.getElementById('outlook-personal').addEventListener('click',()=>openOutlook('https://outlook.live.com/calendar/0/addcalendar'));
+document.getElementById('outlook-work').addEventListener('click',()=>openOutlook('https://outlook.office.com/calendar/0/addcalendar'));
+
 // Visit ?preview=1 to test the first day, or ?preview=24 to test all doors.
 // Remove the preview query to see the real date-locked experience.

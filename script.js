@@ -9,7 +9,7 @@ const STORAGE_KEY = 'pinup-advent-opened-2026';
 // Testing shortcut: ?preview=1 ... ?preview=24 simulates that many unlocked doors.
 // This is a convenience only, not a private or secure feature.
 const previewParam = new URLSearchParams(window.location.search).get('preview');
-const PREVIEW_DAY = previewParam !== null && /^([1-9]|1\\d|2[0-4])$/.test(previewParam) ? Number(previewParam) : null;
+const PREVIEW_DAY = previewParam !== null && /^([1-9]|1[0-9]|2[0-4])$/.test(previewParam) ? Number(previewParam) : null;
 const doors = [
   ['The Early Present','Gil Elvgren'],['Christmas Cookies','Zoë Mozert'],
   ['The Mistletoe Trap','Earl Moran'],['Stocking Stuffers','George Petty'],

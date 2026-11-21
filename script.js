@@ -112,7 +112,7 @@ const outlookUrl=document.getElementById('outlook-url');
 const copyFeedback=document.getElementById('copy-feedback');
 const calendarFeed=outlookUrl.value;
 function gcalTimestamp(date) {
-  return date.toISOString().replace(/[-:]/g,'').replace(/\\.\\d{3}Z$/,'Z');
+  return date.toISOString().slice(0,19).replace(/[-:]/g,'')+'Z';
 }
 function googleReminderUrl() {
   const start=new Date(YEAR,11,1,9,0,0);

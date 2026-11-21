@@ -6,6 +6,10 @@ const YEAR = 2026;
 const TIMEZONE = 'Europe/Paris';
 const EXTENSION = 'webp';
 const STORAGE_KEY = 'pinup-advent-opened-2026';
+// Testing shortcut: ?preview=1 ... ?preview=24 simulates that many unlocked doors.
+// This is a convenience only, not a private or secure feature.
+const previewParam = new URLSearchParams(window.location.search).get('preview');
+const PREVIEW_DAY = previewParam !== null && /^([1-9]|1\\d|2[0-4])$/.test(previewParam) ? Number(previewParam) : null;
 const doors = [
   ['The Early Present','Gil Elvgren'],['Christmas Cookies','Zoë Mozert'],
   ['The Mistletoe Trap','Earl Moran'],['Stocking Stuffers','George Petty'],
@@ -39,6 +43,7 @@ function todayParis() {
   return parts;
 }
 function availableThrough(){
+  if(PREVIEW_DAY !== null) return PREVIEW_DAY;
   const {year,month,day}=todayParis();
   if(year<YEAR || (year===YEAR && month<12)) return 0;
   if(year>YEAR || (year===YEAR && month>12)) return 24;
@@ -47,6 +52,7 @@ function availableThrough(){
 function saveOpened(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify([...opened]));}catch(_){}}
 function setStatus(){
   const through=availableThrough();
+  if(PREVIEW_DAY !== null){status.textContent='PREVIEW MODE — testing as December '+PREVIEW_DAY+'. Normal visitors still follow the real date.';return;}
   if(through===0) status.textContent='The first door opens December 1, 2026 — midnight Paris time.';
   else if(through<24) status.textContent='December '+through+' is ready! Find today’s door and open your Christmas surprise.';
   else status.textContent='All 24 Christmas surprises are ready to unwrap. Merry Christmas!';
@@ -95,4 +101,5 @@ document.getElementById('close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
 setStatus();draw();
 document.addEventListener('visibilitychange',()=>{if(!document.hidden){setStatus();draw()}});
-// For convenient testing before December: temporarily change YEAR, then restore it before publishing.
+// Visit ?preview=1 to test the first day, or ?preview=24 to test all doors.
+// Remove the preview query to see the real date-locked experience.

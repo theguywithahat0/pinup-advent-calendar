@@ -6,17 +6,15 @@
 .door.swinging{transform:perspective(550px) rotateY(-78deg);box-shadow:12px 8px 18px #1b0a1499;pointer-events:none}
 @media(prefers-reduced-motion:reduce){.door.swinging{transform:none}}
 
-/* Optional, account-free calendar reminder download */
-.reminder-cta{margin:15px auto 2px;text-align:center}.reminder-button{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:10px 19px;color:#48232a;background:#eed3a2;text-decoration:none;border:1px solid #fff3cd;box-shadow:0 3px 0 #ab8552,0 5px 16px #200d1766;border-radius:3px;font-size:.83rem;font-weight:700;letter-spacing:.025em;transition:transform .18s}.reminder-button:hover{background:#ffdfaa;transform:translateY(-2px)}.reminder-button:focus-visible{outline:3px solid #fff;outline-offset:3px}.reminder-cta p{margin:12px 0 0;color:#d7bbaa;font-size:.71rem}
-
-/* Direct, no-download reminder setup: provider chooser. */
-.reminder-button{cursor:pointer;font-family:inherit}
-.reminder-panel{max-width:665px;margin:18px auto 0;padding:17px;background:#321d26e8;border:1px solid #d1a36a;box-shadow:0 8px 26px #1b0c17a6;border-radius:5px;text-align:left}
-.reminder-panel[hidden],.outlook-help[hidden]{display:none!important}
-.reminder-panel .reminder-panel-title{font-family:'Playfair Display',Georgia,serif;font-size:1.18rem;margin:2px 0 14px;color:#ffe7bc;text-align:center}
-.reminder-providers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.provider-option{color:#ffedcf;text-decoration:none;min-width:0;background:#6a2d35;border:1px solid #b78e63;border-radius:3px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:12px 13px;min-height:70px;cursor:pointer;font-family:inherit;text-align:left;transition:background .2s}
-.provider-option:nth-child(2),.provider-option:nth-child(4){background:#245145}.provider-option:hover{background:#97505a}.provider-option:focus-visible{outline:3px solid #fff;outline-offset:2px}.provider-option strong{font-weight:700;font-size:.87rem}.provider-option small{font-size:.72rem;line-height:1.5;margin-top:3px;color:#e6ceb9}
-.reminder-cta .reminder-fineprint{margin:15px 2px 1px;color:#d8bba8;font-size:.74rem;line-height:1.5;text-align:center}
-.outlook-help{background:#221820;border:1px solid #8d6f55;padding:12px;margin-top:12px;border-radius:3px}.reminder-cta .outlook-help p{font-size:.78rem;margin:3px 0 10px;color:#f5dcc6;line-height:1.6}.outlook-help strong{color:#ffdfa8}.url-copy{display:flex;gap:7px}.url-copy input{min-width:0;flex:1;background:#f8e9d8;color:#381d23;border:0;padding:8px;font-size:.72rem}.url-copy button{background:#e5be83;color:#39242b;border:0;font-weight:700;cursor:pointer;padding:7px 11px}.reminder-cta .outlook-help #copy-feedback{font-size:.72rem;margin:6px 0 0;color:#e9c88c}
-@media(max-width:480px){.reminder-providers{grid-template-columns:1fr}.reminder-panel{padding:12px}.url-copy{flex-wrap:wrap}.url-copy input{flex-basis:100%}}
+/* Tiny direct-to-calendar icon row. No dropdown, dialog or extra page. */
+.reminder-cta{display:flex;justify-content:center;align-items:center;gap:15px;flex-wrap:wrap;margin:20px auto 0;text-align:center}
+.reminder-label{font-size:.81rem;color:#f0d6b2;font-weight:700;letter-spacing:.025em;white-space:nowrap}
+.reminder-icons{display:flex;gap:12px;align-items:center;justify-content:center}
+.calendar-icon-link{width:60px;min-height:69px;padding:8px 3px 4px;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;text-decoration:none;color:#f1ddc9;border:1px solid #c39d715c;border-radius:7px;background:#311b25a8;transition:transform .2s,background .2s}
+.calendar-icon-link:hover{transform:translateY(-3px);background:#502c38}
+.calendar-icon-link:focus-visible{outline:3px solid #ffebbf;outline-offset:3px}
+.calendar-icon-link img{height:32px;width:34px;object-fit:contain}
+.calendar-icon-link span{font-size:.63rem;font-weight:600;letter-spacing:.01em}
+.reminder-feedback{flex-basis:100%;max-width:560px;font-size:.74rem;color:#f7dda9;margin:0 auto;line-height:1.5}
+.reminder-feedback[hidden]{display:none}
+@media(max-width:480px){.reminder-cta{gap:10px}.reminder-icons{gap:8px}.reminder-label{flex-basis:100%}.calendar-icon-link{min-height:65px}}

@@ -141,13 +141,5 @@ outlookCalendarLink.addEventListener('click',()=>{
 });
 
 
-// The visitor can remove the strictly functional opened-door history at any time.
-document.getElementById('reset-opened').addEventListener('click',()=>{
-  opened.clear();
-  try{localStorage.removeItem(STORAGE_KEY);}catch(_){}
-  draw();
-  document.getElementById('reset-feedback').textContent='Opened-door history cleared on this browser.';
-});
-
 // Visit ?preview=1 to test the first day, or ?preview=24 to test all doors.
 // Remove the preview query to see the real date-locked experience.

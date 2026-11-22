@@ -41,6 +41,9 @@ The website identifies the images as AI-generated artistic tributes, both in the
 
 The website uses only one first-party localStorage entry (`pinup-advent-opened-2026`) to remember opened door numbers in each visitor's own browser. It is not sent to the website owner; the site has no visitor analytics, advertising trackers, accounts, or signup forms. Visitors can remove this information by clearing the site's storage in browser settings. No reset button or cookie banner is included.
 
-The page provides a short footer notice: "Opened doors are remembered in your browser. No visitor analytics or advertising trackers."
+The homepage no longer displays a separate storage notice; the functional storage explanation lives on the French legal-notices page.
 
 The website is hosted by GitHub Pages and loads Google Fonts and calendar icon images from external services, which can process request information such as IP addresses. Separately assess any French site publisher/host legal notice obligations before public launch. Adding new analytics or tracking services would require reviewing privacy and cookie requirements.
+
+## Mentions légales
+The calendar has a linked French `mentions-legales.html` page describing the art project, AI illustration provenance, GitHub Pages hosting, and functional browser storage. The homepage no longer displays the opened-door storage notice. For non-professional publishing, anonymity under French LCEN article 1-1 II is conditional on the host holding the publisher's identifying details. The owner should confirm that condition. GitHub's public business address and main switchboard phone are listed; it is not a support number.

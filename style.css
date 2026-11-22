@@ -6,15 +6,15 @@
 .door.swinging{transform:perspective(550px) rotateY(-78deg);box-shadow:12px 8px 18px #1b0a1499;pointer-events:none}
 @media(prefers-reduced-motion:reduce){.door.swinging{transform:none}}
 
-/* Tiny direct-to-calendar icon row. No dropdown, dialog or extra page. */
-.reminder-cta{display:flex;justify-content:center;align-items:center;gap:15px;flex-wrap:wrap;margin:20px auto 0;text-align:center}
-.reminder-label{font-size:.81rem;color:#f0d6b2;font-weight:700;letter-spacing:.025em;white-space:nowrap}
-.reminder-icons{display:flex;gap:12px;align-items:center;justify-content:center}
-.calendar-icon-link{width:60px;min-height:69px;padding:8px 3px 4px;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;text-decoration:none;color:#f1ddc9;border:1px solid #c39d715c;border-radius:7px;background:#311b25a8;transition:transform .2s,background .2s}
-.calendar-icon-link:hover{transform:translateY(-3px);background:#502c38}
+/* Minimal single-line calendar reminder strip, including on mobile. */
+.reminder-cta{display:flex;flex-direction:column;align-items:center;gap:6px;margin:17px auto 0;text-align:center}
+.reminder-row{display:flex;align-items:center;justify-content:center;flex-wrap:nowrap;gap:12px;max-width:100%}
+.reminder-label{font-size:.78rem;color:#f0d6b2;font-weight:700;letter-spacing:.01em;white-space:nowrap}
+.reminder-icons{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;gap:6px}
+.calendar-icon-link{display:inline-flex;flex:0 0 34px;width:34px;height:34px;min-width:34px;min-height:34px;align-items:center;justify-content:center;text-decoration:none;border:1px solid #c39d715c;border-radius:6px;background:#311b25a8;transition:transform .2s,background .2s}
+.calendar-icon-link:hover{transform:translateY(-2px);background:#502c38}
 .calendar-icon-link:focus-visible{outline:3px solid #ffebbf;outline-offset:3px}
-.calendar-icon-link img{height:32px;width:34px;object-fit:contain}
-.calendar-icon-link span{font-size:.63rem;font-weight:600;letter-spacing:.01em}
-.reminder-feedback{flex-basis:100%;max-width:560px;font-size:.74rem;color:#f7dda9;margin:0 auto;line-height:1.5}
+.calendar-icon-link img{display:block;width:22px!important;height:22px!important;min-width:0;max-width:22px;max-height:22px;object-fit:contain}
+.reminder-feedback{max-width:520px;font-size:.74rem;color:#f7dda9;margin:2px auto 0;line-height:1.5}
 .reminder-feedback[hidden]{display:none}
-@media(max-width:480px){.reminder-cta{gap:10px}.reminder-icons{gap:8px}.reminder-label{flex-basis:100%}.calendar-icon-link{min-height:65px}}
+@media(max-width:380px){.reminder-row{gap:7px}.reminder-label{font-size:.7rem}.reminder-icons{gap:4px}.calendar-icon-link{flex-basis:30px;width:30px;height:30px;min-width:30px;min-height:30px}.calendar-icon-link img{width:20px!important;height:20px!important;max-width:20px;max-height:20px}}

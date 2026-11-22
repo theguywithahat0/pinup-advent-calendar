@@ -23,4 +23,15 @@
 .footer-note .ai-disclosure{font-size:.79rem;color:#e7cfb1;max-width:750px;margin:13px auto 0;line-height:1.65}
 .footer-note .ai-disclosure strong{color:#f5dcae}
 .art-ai-note{font-size:.73rem;line-height:1.45;color:#c8b3a1;margin:10px 0 0}
-.footer-note .privacy-note{font-size:.72rem;color:#c7aa9e;margin:10px auto 0;max-width:680px;line-height:1.5}
+
+
+/* Minimal legal link and companion legal-notice page. */
+footer a{color:#e9cc97;text-decoration:underline;text-underline-offset:3px}footer a:hover{color:#fff2c9}
+footer .footer-separator{margin:0 10px;color:#cfa877}
+.legal-wrap{width:min(760px,calc(100% - 36px));margin:40px auto 60px;padding:27px clamp(20px,5vw,44px);border:1px solid #cba46e;background:#321e27e8;box-shadow:0 12px 38px #170b12a3;color:#ecd9c5;line-height:1.7}
+.legal-wrap h1{font-size:clamp(2rem,5vw,3rem);margin:0 0 22px;color:#f7e4bd}
+.legal-wrap h2{font-size:1.25rem;color:#eac18b;margin:25px 0 4px;font-weight:600}
+.legal-wrap p{margin:8px 0 12px;font-size:.9rem}
+.legal-wrap a{color:#eac18b;text-underline-offset:3px}.legal-wrap a:hover{color:#fff2cf}
+.legal-wrap .back-link{display:inline-block;margin-bottom:20px;font-size:.84rem}
+.legal-wrap .quiet{font-size:.8rem;color:#c8ad9e}

@@ -8,7 +8,7 @@
   <meta property="og:title" content="A Very Pin-Up Christmas">
   <meta property="og:description" content="Open a little Christmas surprise every day, December 1–24.">
   <title>A Very Pin-Up Christmas | Advent 2026</title>
-  <link rel="stylesheet" href="./style.css?v=20261122-compact-icons">
+  <link rel="stylesheet" href="./style.css?v=20261122-ai-privacy">
   <script defer src="./script.js"></script>
 </head>
 <body>
@@ -45,8 +45,19 @@
         <div class="calendar-footer"><span>✶</span> A LITTLE MAGIC BEHIND EVERY DOOR <span>✶</span></div>
       </section>
       <section class="footer-note">
-        <p>Every day opens a new original Christmas pin-up, each paying tribute to a different Golden Age illustration style.</p>
-        <p class="small">Inspired by vintage calendar and magazine art. Original contemporary illustrations, not works by the historical artists.</p>
+        <p>Every day opens a new Christmas pin-up, each paying tribute to a different Golden Age illustration style.</p>
+        <p class="ai-disclosure"><strong>AI-generated artwork.</strong> These original illustrations are creative tributes to vintage pin-up masters, not paintings by the historical artists.</p>
+        <details class="privacy-details">
+          <summary>Privacy &amp; your opened doors</summary>
+          <div class="privacy-content">
+            <p>This calendar remembers which doors you open using your browser's <code>localStorage</code>. This is functional storage, not a tracking cookie. The saved day numbers stay on your device and are not sent to the website owner.</p>
+            <p>There are no first-party analytics, advertising trackers, visitor accounts, or signup forms. The website is hosted on <a href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreferrer">GitHub Pages</a>; hosting requests are handled by GitHub. Google Fonts and the calendar icon images are loaded from external services, which receive requests from your browser. Calendar providers receive information only when you choose to open their links.</p>
+            <p>Your opened-door history is remembered on this browser only, not across devices, and can also be removed by clearing this site's storage. You can erase it here:</p>
+            <button id="reset-opened" class="reset-progress" type="button">Reset my opened doors</button>
+            <span id="reset-feedback" role="status" aria-live="polite"></span>
+            <p class="site-publisher">Site project: <a href="https://github.com/theguywithahat0/pinup-advent-calendar" target="_blank" rel="noopener noreferrer">pinup-advent-calendar</a> · Hosted on GitHub Pages. This is an independent artistic homage, unaffiliated with the historical artists.</p>
+          </div>
+        </details>
       </section>
     </main>
     <footer>MADE WITH CHRISTMAS CHEER <span aria-hidden="true">♥</span> 2026</footer>
@@ -63,6 +74,7 @@
         <p class="art-day" id="reveal-day"></p>
         <h2 id="reveal-title"></h2>
         <p class="art-credit" id="reveal-credit"></p>
+        <p class="art-ai-note">AI-generated illustration · Original artistic homage</p>
         <div class="modal-actions">
           <button id="previous" class="nav-button" aria-label="Previous unlocked day">‹ Previous</button>
           <button id="next" class="nav-button" aria-label="Next unlocked day">Next ›</button>

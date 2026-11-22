@@ -35,3 +35,12 @@ Remove the `?preview=...` query to return to the genuine Advent timetable. The p
 
 ## Minimal calendar reminders
 The page shows **Set a daily reminder** with direct Google, Apple and Outlook buttons using their recognizable calendar brand icons, without an internal chooser. Google opens a recurring event for December 1–24 at 9 a.m. local time (visitor saves it); Apple opens a `webcal:` subscription in a compatible Calendar app. Outlook opens Add Calendar and attempts to copy the iCal feed URL; visitors paste it under **Subscribe from web**. Outlook's website cannot reliably create the recurring series in one click without authorizing account access. The public `.ics` file is still needed for Apple and Outlook subscription. Browser/calendar alert permissions are up to visitors. No visitor data is collected.
+
+## AI transparency and visitor privacy
+The website transparently states that all 24 illustrations are AI-generated artistic homages and not authentic works by the named historical artists. The notice is below the calendar and repeated in every artwork reveal.
+
+The site uses browser `localStorage` under key `pinup-advent-opened-2026` solely to remember which numbered doors were opened on that device/browser. This is the only first-party persistent browser storage used by the website's JavaScript. It is functional; no visitor ID, analytics script, account or backend transmits door-opening history to the owner. Visitors can clear their opened doors using **Privacy & your opened doors → Reset my opened doors**. Private browsing/cleared storage/another device will not preserve the state.
+
+The site loads Google Fonts (from Google) and calendar service logo images (from Wikimedia Commons), and runs on GitHub Pages. Those infrastructure and third-party resource requests may involve IP addresses or other metadata; no claim is made that all third parties set zero cookies. Do not add analytics or other third-party scripts without revisiting the privacy assessment.
+
+A concise privacy disclosure is included on the page. French website publisher and host legal-notice requirements may apply independently of whether an analytics or cookie banner is needed; the publisher should assess and complete any required identifying details.
